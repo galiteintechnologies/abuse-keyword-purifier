@@ -33,6 +33,7 @@ Example usage:
 
 ```
 <?php
+
 use AbuseKeywordPurifier\ProfanityFilter;
 
 $profanityFilter = new ProfanityFilter();
@@ -41,7 +42,7 @@ $content = "I do not want to use such bad word like bastard. Another bad word I 
 $result = $profanityFilter->filterProfanities($content);
 ```
 
-## Output on PHP
+## Output
 
 ```
 I do not want to use such bad word like *******. Another bad word I want to remove is *****.
