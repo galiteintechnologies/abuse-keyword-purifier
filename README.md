@@ -11,7 +11,7 @@ Replace or remove abuse keywords from content.
 If you use composer, you can add this package by running 
 
 ````
-composer require nexuslinkservices/abuse-keyword-purifier
+composer require galiteintechnologies/abuse-keyword-purifier
 ````
 
 ## Usage
